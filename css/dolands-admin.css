@@ -1,0 +1,106 @@
+/***************************************************************************
+*							Zolands UX Style CSS
+***************************************************************************/
+
+@charset"utf-8";
+
+.wlogin-admin .wform-group .winput:focus{
+	border-color: #FF7096;
+}
+.wbody-content .wbody-title span{
+	color: #008AEF;
+}
+.wbody-content .wbody-title .wbodytitle-top h6{
+	font-weight: 300;
+}
+@media only screen and (max-width: 780px){
+	.wbody-content .wbody-title .rows .wcol-6{
+		display: flex;
+		width: 100%;
+	}
+	.wbody-content .wbody-title .wbodytitle-top{
+		display: flex;
+	}
+	.wbody-content .wbody-title .wbodytitle-top h6{
+		display: block;
+		float: left;
+	}
+}
+@media only screen and (max-width: 380px){
+	.wbody-content .wbodytitle-btn{
+		margin-left: 0px;
+	}
+}
+@media only screen and (max-width: 280px){
+	.wbody-content .wbodytitle-btn{
+		margin-left: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 1080px){
+	.wbody-content .wbody-title .wcol-6{
+		width: 100%;
+	}
+	.wbody-content .wbody-cont .wcol-6{
+		width: 100%;
+	}
+}
+
+@-webkit-keyframes wshow{
+	0%{
+		opacity: 0;
+	} 100% {
+		opacity: 1;
+	}
+}
+.wbody-content .wbodytitle-btn .wbtn{
+	display: table;
+	border: none;
+	color: #FFFFFF;
+	-webkit-animation: wshow 1.2s ease-in-out;
+	-moz-animation: wshow 1.2s ease-in-out;
+	-ms-animation: wshow 1.2s ease-in-out;
+	-o-animation: wshow 1.2s ease-in-out;
+	animation: wshow 1.2s ease-in-out;
+}
+.wbody-content .wform .wform-group .winput:focus{
+	border-color: #9A55FF;
+}
+.wbody-content .wform .wform-group .winput[type="submit"]{
+	letter-spacing: 0.040rem;
+}
+
+.wbody-content .wtable-thems,
+.wbody-content .wform{
+	box-shadow: none;
+}
+.wbody-content .wbody-cont .wform .wform-group .winput[type="submit"]{
+	margin-top: 8px;
+}
+#wnavproduk, #wnavtransportasi{
+	display: flex;
+	align-items: center;
+	padding: 0rem 1.200rem 0rem;
+	padding-right: 0.400rem;
+}
+
+
+#wform-tambah-trans .wcol-12 .winput{
+	margin: auto;
+	margin-right: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 180px;
+}
+@media only screen and (max-width: 380px){
+	#wform-tambah-trans{
+		padding-left: 0.400rem;
+		padding-right: 0.400rem;
+	}
+	#wform-tambah-trans .wcol-12 .winput{
+		width: 100%;
+	}
+}
+
+

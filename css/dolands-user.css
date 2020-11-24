@@ -1,0 +1,40 @@
+/***************************************************************************
+*							Zolands UX Style CSS
+***************************************************************************/
+
+@charset"utf-8";
+
+.wlogin-user .wform-group .winput:focus{
+	border-color: #A955FF;
+}
+.wnavslide-left{
+	left: -280px;
+}
+
+#wform-tambah .wcol-12 .winput{
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 180px;
+}
+@media only screen and (max-width: 1080px){
+	#wform-tambah .wcol-6{
+		width: 100%;	
+	}
+}
+#wform-tambah .winput:focus{
+	border-color: #FF7096;
+}
+@media only screen and (max-width: 380px){
+	#wform-tambah{
+		padding-left: 0.400rem;
+		padding-right: 0.400rem;
+	}
+	#wform-tambah .wcol-12 .winput{
+		width: 100%;
+	}
+}
+
+.wfooter-user{
+	padding: 0rem 4rem 0rem;
+}
